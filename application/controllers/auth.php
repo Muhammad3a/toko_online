@@ -29,7 +29,7 @@
                     $this->session->set_userdata('role_id',$auth->role_id);
 
                     switch ($auth->role_id) {
-                        case 1:   redirect('admin/dashboard_admin');
+                        case 1:   redirect('admin/data_barang');
                                   break;
                         case 2:   redirect('welcome');
                                   break;

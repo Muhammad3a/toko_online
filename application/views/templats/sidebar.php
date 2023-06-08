@@ -20,7 +20,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url('dashboard') ?>">
+                <a class="nav-link" href="<?php echo base_url('welcome') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -35,7 +35,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('kategori/elektronik') ?>">
+                <a class="hidden" href="<?php echo base_url('kategori/elektronik') ?>">
                     <i class="fas fa-fw fa-tv"></i>
                     <span>Elektronik</span></a>
             </li>
@@ -55,7 +55,7 @@
                     <span>Pakaian Anak-Anak</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('kategori/peralatan_olahraga') ?>">
+                <a class="hidden" href="<?php echo base_url('kategori/peralatan_olahraga') ?>">
                     <i class="fas fa-fw fa-futbol"></i>
                     <span>Peralatan Olahraga</span></a>
             </li>

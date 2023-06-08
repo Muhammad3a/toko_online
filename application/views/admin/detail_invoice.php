@@ -24,6 +24,7 @@
                 <td align="right"><?php echo $psn->jumlah ?></td>
                 <td align="right"><?php echo number_format($psn->harga,0,',','.') ?></td>
                 <td align="right"><?php echo number_format($subtotal,0,',','.') ?></td>
+
             </tr>
         <?php endforeach; ?>
 

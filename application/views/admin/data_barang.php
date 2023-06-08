@@ -25,7 +25,7 @@
             <td><?php echo anchor('admin/data_barang/edit/'.$brg->id_brg, '<div class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></div>') ?></td>
             <td><?php echo anchor('admin/data_barang/hapus/'.$brg->id_brg, '<div class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></div>') ?></td>
         </tr>
-        <?php endforeach ?>
+        <?php endforeach; ?>
     </table>
 </div>
 
@@ -52,7 +52,13 @@
         </div>
         <div class="form-group">
             <label for="">Kategori</label>
-            <input type="text" name="kategori" class="form-control">
+            <select name="kategori" class="form-control">
+              <option value="">Elektronik</option>
+              <option value="">Pakaian Pria</option>
+              <option value="">Pakaian Wanita</option>
+              <option value="">Pakaian Anak-Anak</option>
+              <option value="">Peralatan Olahraga</option>
+            </select>
         </div>
         <div class="form-group">
             <label for="">Harga</label>

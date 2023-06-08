@@ -12,12 +12,12 @@
                         $grand_total = $grand_total + $item['subtotal'];
                     }
                     echo"<h4> Total Belanja Anda: Rp.".number_format($grand_total,0,',','.');
-                }
+                
                 ?>
             </div><br><br>
 
                 <h3>Input Alamat Pengirim dan Pembayaran</h3>
-                <form action="post" acton="<?php echo base_url() ?>dashboard/proses_pesanan">
+                <form method="post" action="<?php echo base_url() ?>dashboard/proses_pesanan">
 
                     <div class="form-group"> 
                         <label for="">Nama Lengkap</label>
@@ -53,6 +53,11 @@
 
                     <button type="submit" class="btn btn-sm btn-primary mb-3">Pesan</button>
                 </form>
+                <?php 
+                }else {
+                    echo "<h4> Keranjang Belanja Anda Masih Kosong";
+                }
+                ?>
         </div>
         <div class="col-md-2"></div>
     

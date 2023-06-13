@@ -12,7 +12,7 @@
                 <div class="sidebar-brand-icon ">
                     <i class="fas fa-store"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">TOKO ONLINE</div>
+                <div class="sidebar-brand-text mx-3">FASHION-SHOP</div>
             </a>
 
             <!-- Divider -->

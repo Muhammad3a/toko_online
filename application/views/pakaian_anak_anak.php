@@ -8,13 +8,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="<?php echo base_url('assets/img/sider3.jpg') ?>" class="d-block w-100" alt="...">
+            <img src="<?php echo base_url('assets/img/side1-01.jpg') ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="<?php echo base_url('assets/img/fruit2.jpg') ?>" class="d-block w-100" alt="...">
+            <img src="<?php echo base_url('assets/img/side2-01.jpg') ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="<?php echo base_url('assets/img/fruit.jpg') ?>" class="d-block w-100" alt="...">
+            <img src="<?php echo base_url('assets/img/slide3-01.jpg') ?>" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

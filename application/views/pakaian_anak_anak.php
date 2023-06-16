@@ -31,7 +31,7 @@
     <div class="row text-center mt-4">
         <?php foreach ($pakaian_anak_anak as $brg) : ?>
         <div class="card ml-3 mb-3" style="width: 16rem;">
-        <img src="<?php echo base_url().'/upload/'.$brg->gambar ?>" class="card-img-top" alt="...">
+        <img src="<?php echo base_url().'/upload/'.$brg->gambar ?>" class="card-img-top" height="300" width="150" alt="...">
         <div class="card-body">
             <h5 class="card-title mb-1"><?php echo $brg->nama_brg ?></h5>
             <small><?php echo $brg->keterangan ?></small><br>

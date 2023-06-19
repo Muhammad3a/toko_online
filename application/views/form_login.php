@@ -37,7 +37,10 @@
                                     <hr>
                                     <div class="text-center">
                                         <a class="small" href="<?php echo base_url('registrasi/index'); ?>">Belum Punya Akun ? Daftar</a>
-                                    </div>
+                                    </div> 
+                                    <div class="text-center">
+                                      <a class="small" href="<?php echo base_url('admin/registrasi_admin/index'); ?>">Daftar Akun Penjual?</a>
+                                      </div>
                                 </div>
                             </div>
                         </div>

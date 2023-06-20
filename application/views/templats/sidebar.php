@@ -39,17 +39,17 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('kategori/pakaian_pria') ?>">
                     <i class="fas fa-fw fa-tshirt"></i>
-                    <span>Pakaian Pria</span></a>
+                    <span>Fashion Pria</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('kategori/pakaian_wanita') ?>">
                     <i class="fas fa-fw fa-tshirt"></i>
-                    <span>Pakaian Wanita</span></a>
+                    <span>Fashion Wanita</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('kategori/pakaian_anak_anak') ?>">
                     <i class="fas fa-fw fa-tshirt"></i>
-                    <span>Pakaian Anak-Anak</span></a>
+                    <span>Fashion Anak-Anak</span></a>
             </li>
 
             <!-- Divider -->
